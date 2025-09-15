@@ -39,6 +39,11 @@ function resetState() {
   inputValues.value = ''
   resetVisited()
 }
+defineExpose({
+  inputValues,
+  items,
+  isVisited
+})
 </script>
 
 <template>
